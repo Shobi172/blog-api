@@ -62,13 +62,17 @@ This is a NestJS-based RESTful API for managing blog posts. It includes authenti
 2. Create a `.env` file in the root directory and add the required environment variables.
 
  ### MongoDB connection URI
+
  DB_URI=mongodb://username:password@localhost:27017/your_database
 
  ### Google OAuth credentials
+
  GOOGLE_CLIENT_ID=your_google_client_id
+
  GOOGLE_CLIENT_SECRET=your_google_client_secret
 
  ### JWT secret for token generation
+
  JWT_SECRET=your_jwt_secret
 
 
