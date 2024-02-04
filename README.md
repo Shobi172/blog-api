@@ -59,7 +59,7 @@ This is a NestJS-based RESTful API for managing blog posts. It includes authenti
    cd blog-api
    ```
 
-2. ### Create a `.env` file in the root directory and add the required environment variables.
+2. **Create a `.env` file in the root directory and add the below environment variables:**
 
 
   DB_URI=mongodb+srv://shobinshaju:Blogapp07@cluster0.tmdfgbo.mongodb.net/
