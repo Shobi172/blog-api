@@ -61,13 +61,13 @@ This is a NestJS-based RESTful API for managing blog posts. It includes authenti
 
 2. Create a `.env` file in the root directory and add the required environment variables.
 
-DB_URI=mongodb+srv://shobinshaju:Blogapp07@cluster0.tmdfgbo.mongodb.net/
+ - DB_URI=mongodb+srv://shobinshaju:Blogapp07@cluster0.tmdfgbo.mongodb.net/
 
-GOOGLE_CLIENT_ID=476361014131-3prb4hjnhi1dball4m6qo5s2m98hd28n.apps.googleusercontent.com
+ - GOOGLE_CLIENT_ID=476361014131-3prb4hjnhi1dball4m6qo5s2m98hd28n.apps.googleusercontent.com
 
-GOOGLE_CLIENT_SECRET=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
+ - GOOGLE_CLIENT_SECRET=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
 
-JWT_SECRET=mysecret
+ - JWT_SECRET=mysecret
 
 
 3. **Build Docker Image:**
