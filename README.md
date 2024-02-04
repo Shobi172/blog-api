@@ -71,7 +71,6 @@ This is a NestJS-based RESTful API for managing blog posts. It includes authenti
  - JWT_SECRET=mysecret
 
 
-
 3. **Build Docker Image:**
    ```bash
    docker-compose build
