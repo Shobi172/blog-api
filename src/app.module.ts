@@ -6,8 +6,8 @@ import { JwtModule } from '@nestjs/jwt';
 import { AuthController } from './auth/auth.controller';
 import { AuthService } from './auth/auth.service';
 import { GoogleStrategy } from './auth/google.strategy';
-import { BlogController } from './blog/blog.controller'; // Add this line
-import { BlogService } from './blog/blog.service'; // Add this line
+import { BlogController } from './blog/blog.controller';
+import { BlogService } from './blog/blog.service';
 import { User, UserSchema } from './schemas/user.schema';
 import { Blog, BlogSchema } from './schemas/blog.schema';
 import { JwtStrategy } from './auth/jwt.strategy';
@@ -18,7 +18,7 @@ import { JwtStrategy } from './auth/jwt.strategy';
     MongooseModule.forRoot(process.env.DB_URI),
     MongooseModule.forFeature([
       { name: User.name, schema: UserSchema },
-      { name: Blog.name, schema: BlogSchema }, // Add this line
+      { name: Blog.name, schema: BlogSchema },
     ]),
     PassportModule.register({ defaultStrategy: 'jwt' }),
     JwtModule.register({
@@ -26,7 +26,7 @@ import { JwtStrategy } from './auth/jwt.strategy';
       signOptions: { expiresIn: '1h' },
     }),
   ],
-  controllers: [AuthController, BlogController], // Add BlogController
-  providers: [AuthService, GoogleStrategy, BlogService, JwtStrategy], // Add BlogService
+  controllers: [AuthController, BlogController],
+  providers: [AuthService, GoogleStrategy, BlogService, JwtStrategy], 
 })
 export class AppModule {}
