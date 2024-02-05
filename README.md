@@ -63,13 +63,13 @@ This is a NestJS-based RESTful API for managing blog posts. It includes authenti
 
 
 
-DB_URI=mongodb://username:password@localhost:27017/your_database
+    DB_URI=mongodb://username:password@localhost:27017/your_database
 
-GOOGLE_CLIENT_ID=your_google_client_id
+    GOOGLE_CLIENT_ID=your_google_client_id
 
-GOOGLE_CLIENT_SECRET=your_google_client_secret
+    GOOGLE_CLIENT_SECRET=your_google_client_secret
 
-JWT_SECRET=your_jwt_secret
+    JWT_SECRET=your_jwt_secret
 
 
 
